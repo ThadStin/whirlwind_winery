@@ -10,7 +10,7 @@ const IndexPage = () => (
     <SEO title="Whirlwind Winery" />
     <h1>Whirlwind Winery</h1>
     <p>Welcome to Whirlwind Winery!</p>
-    <p>The best wine in Watonga.  Garaunteed!</p>
+    <p>The best wine in Watonga, OK.  Guaranteed!</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
