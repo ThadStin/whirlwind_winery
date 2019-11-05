@@ -8,7 +8,16 @@ import SEO from "../components/seo"
 const Wines = () =>
 <Layout>
   <SEO title="Whirlwind Winery" />
-    <h1> Cabernet </h1>
+  <div>
+    <h1>REDS</h1>
+      <h3> Cabernet </h3>
+      <h3> Sangiovese </h3>
+      <h3> Merlot </h3>
+    <h1>Whites</h1>
+      <h3> Chardonnay </h3>
+    <h1>Rose`</h1>
+      <h3> Pinot Grigio </h3>
+  </div>    
   <Link to="/">Go back to the homepage</Link>
   <Link to="/page-2/">The Winery</Link>
 </Layout>
