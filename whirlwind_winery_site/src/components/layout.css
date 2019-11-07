@@ -40,6 +40,8 @@ template {
   display: none;
 }
 a {
+  color: white;
+  padding-left: 2em;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
@@ -199,7 +201,9 @@ html {
   box-sizing: inherit;
 }
 body {
-  color: hsla(0, 0%, 0%, 0.8);
+  background-color: maroon;
+  color: white;
+  /* hsla(0, 0%, 0%, 0.8); */
   font-family: georgia, serif;
   font-weight: normal;
   word-wrap: break-word;

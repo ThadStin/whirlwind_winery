@@ -17,8 +17,8 @@ const Wines = () =>
       <h3> Chardonnay </h3>
     <h1>Rose`</h1>
       <h3> Pinot Grigio </h3>
-  </div>    
-  <Link to="/">Go back to the homepage</Link>
+  </div>
+  <Link to="/">Home</Link>
   <Link to="/page-2/">The Winery</Link>
 </Layout>
 
