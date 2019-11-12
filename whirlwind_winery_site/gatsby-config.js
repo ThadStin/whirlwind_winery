@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Artisan Wine`,
+    title: `Whirlwind Winery`,
     description: `Brad Stinson wine Oklahoma Watonga vineyard grapes mead fruit wine`,
     author: `Thad Stinson`,
   },

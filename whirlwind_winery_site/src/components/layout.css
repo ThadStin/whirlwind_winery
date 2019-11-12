@@ -41,7 +41,6 @@ template {
 }
 a {
   color: white;
-  padding-left: 2em;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
@@ -201,7 +200,7 @@ html {
   box-sizing: inherit;
 }
 body {
-  background-color: maroon;
+  background-color: black;
   color: white;
   /* hsla(0, 0%, 0%, 0.8); */
   font-family: georgia, serif;
