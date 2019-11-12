@@ -18,9 +18,6 @@ const Wines = () =>
     <h1>Rose`</h1>
       <h3> Pinot Grigio </h3>
   </div>
-  <Link to="/">Home</Link>
-  <Link to="/page-2/">The Winery</Link>
-  <Link to="/grapes/">The Grapes</Link>
 </Layout>
 
 export default Wines

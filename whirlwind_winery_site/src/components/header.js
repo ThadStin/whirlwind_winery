@@ -27,6 +27,16 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
+
+    {/*add nav to Header*/}
+    {/*********************************************************/}
+      <div style={{ marginLeft: `5rem`}}>
+        <Link to="/page-2/" style={{ margin: `1rem`, }}>The Winery</Link>
+        <Link to="/wines/" style={{ margin: `1rem` }}> The Wines </Link>
+        <Link to="/grapes/" style={{ margin: `1rem` }}>The Grapes</Link>
+      </div>
+    {/*********************************************************/}
+    
     </div>
   </header>
 )
