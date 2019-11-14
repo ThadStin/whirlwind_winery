@@ -30,13 +30,13 @@ const Header = ({ siteTitle }) => (
 
     {/*add nav to Header*/}
     {/*********************************************************/}
-      <div style={{ marginLeft: `5rem`}}>
+      <div> {/*style={{ marginLeft: `5rem`}}  this can be added to div if want*/}
         <Link to="/page-2/" style={{ margin: `1rem`, }}>The Winery</Link>
         <Link to="/wines/" style={{ margin: `1rem` }}> The Wines </Link>
         <Link to="/grapes/" style={{ margin: `1rem` }}>The Grapes</Link>
       </div>
     {/*********************************************************/}
-    
+
     </div>
   </header>
 )
