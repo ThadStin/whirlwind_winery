@@ -5,33 +5,34 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
-const Contacts = () => (
+const Contact = () => (
   <Layout>
-    <SEO title="Contacts" />
+    <SEO title="Contact" />
     <h1>contact page</h1>
 
       <form method="post" action="#">
         <label>
           Name:
           <input type="text" name="name" id="name" />
-        </label>
+        </label> <br/>
          <label>
           Email:
           <input type="email" name="email" id="email" />
-        </label>
+        </label> <br/>
         <label>
           Subject:
           <input type="text" name="subject" id="subject" />
-        </label>
+        </label> <br/>
         <label>
-          Message:  
+          Message:
           <textarea name="message" id="message" rows="5" />
-        </label>
-        <button type="submit">Send</button>
+        </label> <br/>
         <input type="reset" value="Clear" />
+        <button type="submit">Send</button>
+
       </form>
 
   </Layout>
 )
 
-export default Contacts
+export default Contact

@@ -27,8 +27,12 @@ const Wines = () =>
       <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
         <Image />
       </div>
-    <h1>Rose`</h1>
       <h3> Pinot Grigio </h3>
+      <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+        <Image />
+      </div>
+    <h1>Rose`</h1>
+      <h3> Sweet Fay Rose` </h3>
       <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
         <Image />
       </div>

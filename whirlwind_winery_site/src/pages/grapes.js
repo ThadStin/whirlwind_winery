@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
-const Wines = () =>
+const Grapes = () =>
 <Layout>
   <SEO title="Whirlwind Winery" />
   <div>
@@ -34,4 +34,4 @@ const Wines = () =>
   </div>
 </Layout>
 
-export default Wines
+export default Grapes
