@@ -34,6 +34,8 @@ const Header = ({ siteTitle }) => (
         <Link to="/page-2/" style={{ margin: `1rem`, }}>The Winery</Link>
         <Link to="/wines/" style={{ margin: `1rem` }}> The Wines </Link>
         <Link to="/grapes/" style={{ margin: `1rem` }}>The Grapes</Link>
+        <Link to="/pairings/" style={{ margin: `1rem` }}>The Pairings</Link>
+        <Link to="/contact/" style={{ margin: `1rem` }}>The Contact</Link>
       </div>
     {/*********************************************************/}
 
